@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .mainCV {
+    height: 358.3mm;
+    width: 255.5mm;
+    background: #6495ed;
+    margin: auto;
+  }
+  .name {
+    font-size: 13mm;
+    padding-top: 20mm;
+    padding-left: 20.1mm;
+    color: #00008b;
+  }
+  .profession {
+    font-size: 7mm;
+    padding-top: 5.3mm;
+    padding-left: 20.1mm;
+  }
+  #flex_icon_contacts {
+    display: flex;
+  }
+  .phone_icon {
+    padding-top: 22mm;
+    padding-left: 20.1mm;
+    padding-bottom: 20mm;
+    width: 11mm;
+    height: 35mm;
+  }
+  .contacts {
+    font-size: 5mm;
+    display: inline-grid;
+    padding-top: 26mm;
+    padding-left: 5mm;
+    list-style-type: none;
+    padding-bottom: 20mm;
+  }
+  #oval {
+    width: 67mm;
+    height: 83.7mm;
+    border-radius: 35mm;
+    background-color: #ebebeb;
+    border: 1mm solid #808080;
+    position: relative;
+    float: right;
+    margin-top: 20mm;
+    margin-right: 20mm;
+  }
+  #oval > img {
+    display: block;
+    height: 65mm;
+    width: 52mm;
+    border-radius: 52mm;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #circle {
+    width: 8mm;
+    height: 8mm;
+    border-radius: 8mm;
+    background-color: #00008b;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+  }
+  #div_with_sections {
+    display: inline-block;
+    width: 163mm;
+    height: 223mm;
+  }
+  .section_CV_left {
+    width: 163mm;
+    overflow: auto;
+  }
+  .section_CV_left > h1 {
+    margin-top: 5mm;
+    margin-left: 20mm;
+    margin-bottom: 10mm;
+    font-size: 7mm;
+    color: #00008b;
+    width: 65mm;
+    background-color: aqua;
+  }
+  .section_CV_left > p {
+    font-size: 5mm;
+    text-align: justify;
+    margin: 3mm 10mm 7mm 20mm;
+  }
+  .section_CV_left > h3 {
+    margin-top: 1mm;
+    margin-left: 20mm;
+    font-size: 5mm;
+    color: #00008b;
+  }
+  #aside_with_sections {
+    float: right;
+    width: 92mm;
+    height: 230mm;
+  }
+  .section_CV_right {
+    width: 92mm;
+    overflow: auto;
+  }
+  .section_CV_right > h1 {
+    margin-top: 5mm;
+    margin-left: 10mm;
+    margin-bottom: 6mm;
+    font-size: 7mm;
+    color: #00008b;
+    width: 65mm;
+    background-color: aqua;
+  }
+  .section_CV_right > h3 {
+    margin-top: 2mm;
+    margin-left: 10mm;
+    font-size: 4mm;
+    color: #000000;
+    margin-right: 20mm;
+    font-weight: normal;
+  }
+  .list_language_skills {
+    margin-left: 15mm;
+    margin-right: 13mm;
+  }
+  #language {
+    line-height: 1.5;
+    font-size: 5mm;
+  }
+  .skills {
+    line-height: 1.5;
+    font-size: 5mm;
+  }
+  .git {
+    font-size: 5mm;
+    padding-left: 10mm;
+  }
